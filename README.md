@@ -10,9 +10,19 @@ This is a demo for a simple knowledge graph. See blog [项目实战--知识图�
 
 - **data/:**
 
+  run ``virtualenv venv`` prepare python virtual environment; 
+
+  run ``source venv/bin/activate`` go into vitual environment;
+
+  run ``pip install redis`` install python redis dependency;
+
   run ``python nodes_edges.py`` to generate node and edge file for Neo4j;
 
   run ``python spo.py`` to generate basic file for MySQL/Postgres;
+
+  run ``mysql.server start`` to run mysql server;
+
+  run ``brew install neo4j`` to install neo4j;
 
   run ``./dump.sh`` to dump files into database
 
