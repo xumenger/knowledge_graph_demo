@@ -9,4 +9,4 @@
 DEBUG = True
 LOCAL_TEST = False
 MYSQL_USER = "root"
-MYSQL_PWD = "1122"
+MYSQL_PWD = ""
