@@ -10,7 +10,7 @@ This is a demo for a simple knowledge graph. See blog [项目实战--知识图�
 
 - **data/:**
 
-  run ``virtualenv venv`` prepare python virtual environment; 
+  run ``virtualenv venv --python=python3`` prepare python virtual environment; 
 
   run ``source venv/bin/activate`` go into vitual environment;
 
